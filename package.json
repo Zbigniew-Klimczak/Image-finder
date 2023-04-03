@@ -1,8 +1,8 @@
 {
-  "name": "goit-react-hw-04-images",
+  "name": "goit-react-hw-04-image",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Zbigniew-Klimczak.github.io/goit-react-hw-04-images/",
+  "homepage": "https://Zbigniew-Klimczak.github.io/goit-react-hw-04-image/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
@@ -37,9 +37,9 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ],
-    "devDependencies": {
-      "prop-types": "^15.8.1"
-    }
+    ]
+  },
+  "devDependencies": {
+    "prop-types": "^15.8.1"
   }
 }
