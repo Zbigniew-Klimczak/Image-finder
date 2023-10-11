@@ -22,7 +22,11 @@ const Modal = ({ imageObject, closeModal }) => {
       }}
     >
       <div className={css.modal}>
-        <img src={imageObject.largeImageURL} alt={imageObject.tags} />
+        <img
+          src={imageObject.largeImageURL}
+          alt={imageObject.tags}
+          className={css.modalImage}
+        />
       </div>
     </div>
   );
