@@ -1,16 +1,9 @@
 @import-normalize; /* bring in normalize.css styles */
 
-html {
+* {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
-  width: 100vw;
-  overflow-x: hidden;
-  scrollbar-gutter: auto;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
 }
 
 body {
@@ -21,10 +14,11 @@ body {
   background-color: #fff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-width: 320px;
 }
+
 img {
   display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
-  max-height: 100%;
 }
