@@ -20,6 +20,7 @@ const Searchbar = ({ onSubmit }) => {
           value={inputValue}
           onChange={evt => setInputValue(evt.currentTarget.value)}
           className={css.input}
+          name="Image text"
           type="text"
           autoComplete="off"
           autoFocus
